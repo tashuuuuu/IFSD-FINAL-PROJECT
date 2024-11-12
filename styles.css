@@ -1,0 +1,94 @@
+/* General Styles */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* Header Section */
+.hero-section {
+    background-image: url('travel.jpg');
+    background-size: cover;
+    color: white;
+    padding: 100px 0;
+}
+
+.hero-section h1 {
+    font-size: 3rem;
+}
+
+.hero-section p {
+    font-size: 1.5rem;
+}
+
+.hero-section .btn {
+    margin: 10px;
+}
+
+/* Section Styling */
+section {
+    padding: 60px 0;
+}
+
+section h2 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+}
+
+/* Destination Cards */
+.destination-card, .tour-package-card {
+    background-color: white;
+    padding: 20px;
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-bottom: 30px;
+}
+
+.destination-card img, .tour-package-card img {
+    max-width: 100%;
+    border-radius: 10px;
+}
+
+.destination-card h5, .tour-package-card h5 {
+    margin-top: 15px;
+    font-size: 1.25rem;
+}
+
+/* Testimonial Carousel */
+.carousel-inner p {
+    font-style: italic;
+}
+
+.carousel-inner h5 {
+    font-weight: bold;
+}
+
+/* Footer Section */
+.footer {
+    background-color: #f8f9fa;
+    padding: 30px 0;
+}
+
+.footer p {
+    margin-bottom: 10px;
+}
+
+.footer a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+.footer .form-control {
+    max-width: 300px;
+    display: inline-block;
+}
+
+/* Button */
+.btn-primary {
+    background-color: #007bff;
+}
+
+.btn-secondary {
+    background-color: #6c757d;
+}
